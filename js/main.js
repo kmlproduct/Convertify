@@ -184,7 +184,7 @@ function Weight() {
       case "kg":
         result = amount * 1000;
         break;
-      case "cm":
+      case "cg":
         result = amount * 100000;
         break;
       case "mg":
@@ -207,6 +207,32 @@ function Weight() {
 
     }
   }
+  if (fromid == "mg") {
+    switch (fromto) {
+      case "kg":
+        result = amount / 1000;
+        break;
+      case "t":
+        result = amount * 100000;
+        break;
+      case "cg":
+        result = amount * 100000;
+    }
+  }
+
+  if (fromid == "cg") {
+    switch (fromto) {
+      case "t":
+        result = amount / 1000;
+        break;
+      case "kg":
+        result = amount * 100000;
+        break;
+      case "mg":
+        result = amount * 100000;
+    }
+  }
+
 
   var message =  result + " " + fromto;
   document.getElementById("message-weight").innerHTML = message;

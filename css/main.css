@@ -1,5 +1,5 @@
 body {
-    
+
     height: 1000px;
     justify-content: space-around;
     align-items: left;
@@ -7,6 +7,7 @@ body {
     font-family: sans-serif;
 
 }
+
 header {
     height: 80px;
     background-color: rgb(250, 250, 250);
@@ -57,22 +58,25 @@ button:hover {
     margin-left: 150px;
     color: rgb(137, 137, 137);
 }
+
 .h3from {
     display: inline-block;
-    margin-left:150px;
+    margin-left: 150px;
     color: rgb(137, 137, 137);
 
 }
+
 .h3to {
     display: inline-block;
-    margin-left:476px;
+    margin-left: 476px;
     color: rgb(137, 137, 137);
-    
+
 }
 
 /* form from */
 
 .form {
+    position: relative;
     width: 100%;
     position: relative;
     height: auto;
@@ -80,34 +84,46 @@ button:hover {
     overflow: hidden;
 }
 
-.form input {
+.inputtparent {
+    position: relative;
+    height: 98px;
+  
+    
+
+}
+
+.form .input {
+
+    float: left;
+    position: absolute;
     width: 30%;
     height: auto;
-    margin-top: 12px;
+    top: 77px;
     color: rgb(137, 137, 137);
     padding: 0px;
     margin: 0px;
-    bottom: 0px;
     border: none;
     outline: none;
     font-size: 16px;
 
 }
 
-.form .area {
+.area {
 
+    position: absolute;
+    float: right;
+    bottom: 1px;
     width: 30%;
     height: auto;
-    margin-top: 61px;
-    margin-left:  148px;
+    top: 75px;
+    BOTTOM: 2px;
+    right: 345px;
     border: none;
-    color:rgb(137, 137, 137);
-    border-bottom: 1px solid rgb(137, 137, 137);
+    color: rgb(137, 137, 137);
+    border-bottom: 1.6px solid rgb(137, 137, 137);
     outline: none;
     font-size: 16px;
-
 }
-
 
 .form label {
     position: absolute;
@@ -161,23 +177,25 @@ button:hover {
 
 .sel1-select {
     width: 30%;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     border: none;
     border-bottom: 1px solid rgb(137, 137, 137);
     float: 50%;
-    color:rgb(137, 137, 137);
+    color: rgb(137, 137, 137);
     height: 25px;
 
     margin-bottom: 10px;
 
 }
+
 .usdflag {
     width: 16px;
     position: absolute;
     top: 4.5px;
     left: 339px;
 }
+
 .usdflag2 {
     width: 16px;
     position: absolute;
@@ -188,10 +206,10 @@ button:hover {
 
 
 .sel2-select {
-    
+
     width: 30%;
     height: 25px;
-    color:rgb(137, 137, 137);
+    color: rgb(137, 137, 137);
     margin-left: 150px;
     border: none;
     border-bottom: 1px solid rgb(137, 137, 137);
