@@ -121,7 +121,7 @@ if ((fromid) == (fromto)){document.getElementById("message").innerHTML = " shoul
   document.getElementById("message").innerHTML = message;
 }
 // distance
-function MyDistance() {
+function MyDistance()  {
 
   var fromid = document.getElementById("fromDistance-id").value;
   fromto = document.getElementById("toDistance-id").value;

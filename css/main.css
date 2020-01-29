@@ -15,20 +15,21 @@ header {
     padding: 0px;
 }
 
+
+
+.main {
+    height: 142px;
+    margin-top: 0px;
+    margin-left: 150px;
+    padding: 0px;
+    position: relative;
+    
+}
 h1 {
     text-align: center;
     float: left;
     margin-left: 150px;
     color: rgb(137, 137, 137);
-}
-
-.main {
-    height: 142px;
-    margin-top: 0px;
-    padding: 0px;
-    bottom: 600px;
-    position: relative;
-    top: 200px;
 }
 
 h2 {
@@ -39,7 +40,6 @@ h2 {
 button {
     width: 90px;
     height: 36px;
-    margin-left: 150px;
     border-radius: 8px;
     border: none;
     display: inline-block;
@@ -55,38 +55,41 @@ button:hover {
 }
 
 .MyDate {
-    margin-left: 150px;
+    
     color: rgb(137, 137, 137);
 }
 
-.h3from {
-    display: inline-block;
-    margin-left: 150px;
-    color: rgb(137, 137, 137);
 
-}
-
-.h3to {
-    display: inline-block;
-    margin-left: 476px;
-    color: rgb(137, 137, 137);
-
-}
 
 /* form from */
 
 .form {
-    position: relative;
-    width: 100%;
-    position: relative;
+    
+    
     height: auto;
     margin-left: 150px;
     overflow: hidden;
 }
 
+.h3from {
+    position: relative;
+    display: inline-block;
+    color: rgb(137, 137, 137);
+    width: 30%;
+}
+
+.h3to {
+    position: relative;
+    display: inline-block;
+    color: rgb(137, 137, 137);
+    width: 30%;
+    margin-left: 150px;
+}
+
 .inputtparent {
     position: relative;
-    height: 98px;
+    margin-top: 98px;
+    display: block;
   
     
 
@@ -95,29 +98,30 @@ button:hover {
 .form .input {
 
     float: left;
-    position: absolute;
+    position: relative;
     width: 30%;
     height: auto;
-    top: 77px;
+    top: -9px;
     color: rgb(137, 137, 137);
     padding: 0px;
-    margin: 0px;
+    margin-top: 1px;
     border: none;
+    border-bottom: 1.6px solid;
+    bottom:3px;
     outline: none;
     font-size: 16px;
-
 }
 
 .area {
 
-    position: absolute;
-    float: right;
+    position: relative;
+    display: inline-block;
+    margin-top: 1px;
+    top:-2px;
+    margin-left: 183px;
     bottom: 1px;
     width: 30%;
     height: auto;
-    top: 75px;
-    BOTTOM: 2px;
-    right: 345px;
     border: none;
     color: rgb(137, 137, 137);
     border-bottom: 1.6px solid rgb(137, 137, 137);
@@ -125,14 +129,15 @@ button:hover {
     font-size: 16px;
 }
 
+
 .form label {
     position: absolute;
-    bottom: 0px;
+    bottom: 3pxpx;
     left: 0px;
     width: 30%;
     height: 100%;
     pointer-events: none;
-    border-bottom: 1px solid rgb(137, 137, 137);
+   
 }
 
 .form label::after {
@@ -142,7 +147,6 @@ button:hover {
     bottom: -1px;
     height: 100%;
     width: 20%;
-    border-bottom: 1px solid rgb(137, 137, 137);
     transform: translateX(-100%);
 
 
@@ -173,6 +177,7 @@ button:hover {
 .sel {
     height: auto;
     width: 100%;
+    display: inline;
 }
 
 .sel1-select {
@@ -191,16 +196,16 @@ button:hover {
 
 .usdflag {
     width: 16px;
-    position: absolute;
-    top: 4.5px;
-    left: 339px;
+    position: relative;
+    top: 3.5px;
+    right: 46px;
 }
 
 .usdflag2 {
     width: 16px;
-    position: absolute;
+    position: relative;
     top: 2.5px;
-    right: 368px;
+    right: 44px;
 }
 
 
